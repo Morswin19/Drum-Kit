@@ -13,6 +13,17 @@ body {
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+  color: goldenrod;
+  background: rgba(0, 0, 0, 0.7);
+  width: 300px;
+  border: 5px solid azure;
+  padding: 15px;
+  margin: auto;
+  margin-top: 15px;
+}
+
 .key {
   padding: 1rem 0.5rem;
   font-size: 1.5rem;
@@ -20,7 +31,7 @@ body {
   border-radius: 50px;
   -webkit-transition: all 0.07s;
   transition: all 0.07s;
-  margin: 1rem;
+  margin: 0 1rem;
   color: azure;
   background: rgba(0, 0, 0, 0.7);
   width: 140px;
@@ -53,14 +64,15 @@ kbd {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1900px;
-  height: 800px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100vw;
+  height: 80vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
 }
 /*# sourceMappingURL=style.css.map */
